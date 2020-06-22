@@ -9,8 +9,8 @@ const SingIn = () => (
   <Container>
     <Image source={logoImg} />
     <Title>Faça seu logon</Title>
-    <Input></Input>
-    <Input></Input>
+    <Input name="email" icon="mail" placeholder="E-mail" />
+    <Input name="password" icon="lock" placeholder="Senha" />
     <Button onPress={()=> {console.log('oi')}}>Entrar</Button>
   </Container>
 );

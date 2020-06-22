@@ -6,7 +6,7 @@ import { Container, TextInput } from './styles';
 const Input = ({ name, icon, ...rest }) => (
   
     <Container>
-      <Icon name="mail" size={20} color="rgba(0,0,0,0.5)"/>
+      <Icon name={icon} size={20} color="rgba(0,0,0,0.5)"/>
       <TextInput placeholderTextColor="rgba(0,0,0,0.5)" {...rest}  />
     </Container>
   

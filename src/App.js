@@ -6,7 +6,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import Routes from './routes';
 const App = () => (
   <NavigationContainer>
-    <StatusBar barStyle="light-content" backgroundColor="#fff" />
+    <StatusBar barStyle="dark-content" backgroundColor="#fff" />
     <View style={{flex: 1, backgroundColor: '#312e28'}}>
       <Routes></Routes>
     </View>

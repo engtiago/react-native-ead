@@ -12,10 +12,10 @@ const AuthRoutes = () => (
       headerShown: false,
       cardStyle: {backgroundColor: '#ffffff'},
     }}
-    initialRouteName="SingUp"
+    // initialRouteName="SingUp"
     >
     <Auth.Screen name="SingIn" component={SingIn} />
-    <Auth.Screen name="SingUn" component={SingUp} />
+    <Auth.Screen name="SingUp" component={SingUp} />
   </Auth.Navigator>
 );
 
